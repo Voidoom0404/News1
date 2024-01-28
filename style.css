@@ -65,3 +65,11 @@ text-transform: uppercase;
     color: rgb(108, 117, 125);
     font-family: 'Times New Roman', Times, serif;
 }
+
+li:nth-child(even) {
+    background-color: #cce3f0;
+}
+
+.new::after {
+    content: "New!";
+}
